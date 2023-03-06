@@ -1,0 +1,2 @@
+# issues-only
+issues template

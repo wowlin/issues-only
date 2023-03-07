@@ -1,18 +1,24 @@
-name: 기능 제안
-description: "새로운 기능을 제안해주세요."
+name: 변경 요청
+description: "앱을 수정할 필요가 있어요."
 assignees: []
-labels: ["제안"]
+labels: ["변경"]
 body:
 - type: markdown
   attributes:
     value: |
       "_이 버튼의 색상을 #eaeaea로 변경해주세요._"
-      "_매번 이렇게 하는게 불편한데, 이런식으로 하면 더 좋을 거 같아요._"
-      "_OO 앱에 OO 메뉴에 있는 것처럼 동작하는게 더 나아 보여요._"
+      "_입력창의 위치를 바꾸어 주세요._"
+- type: textarea
+  id: current
+  attributes:
+    label: 현재 상태
+    description: "변경이 필요한 위치와 현재 상태를 입력해 주세요."
+  validations:
+    required: false
 - type: textarea
   id: request
   attributes:
-    label: 제안 내용
-    description: "더 나은 코드를 위해 기여해 주셔서 감사합니다."
+    label: 변경 내용
+    description: "변경되어야 할 내용을 입력해 주세요."
   validations:
     required: true

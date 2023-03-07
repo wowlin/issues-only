@@ -1,5 +1,7 @@
 name: 오류 보고
 description: 소중한 오류보고에 감사드립니다.
+assignees: []
+labels: ["오류"]
 body:
 - type: checkboxes
   id: os

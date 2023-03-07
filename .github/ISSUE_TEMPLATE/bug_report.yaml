@@ -8,10 +8,18 @@ body:
   id: os
   attributes:
     label: 테스트 OS
-    description: 오류가 발생하는 기기의 OS를 선택해주세요.
+    description: "오류가 발생하는 기기의 OS를 선택해주세요."
     options:
       - label: Android
       - label: iOS
+- type: input
+  id: device
+  attributes:
+    label: 테스트 기기 모델명
+    description: "오류가 발생하는 테스트 기기의 모델명을 입력해주세요."
+    placeholder: "삼성 갤럭시 S20, 아이폰 14 프로"
+  validations:
+    required: true
 - type: textarea
   id: what-happened
   attributes:

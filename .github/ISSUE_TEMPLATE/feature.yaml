@@ -1,1 +1,16 @@
-
+name: 기능 제안
+description: "새로운 기능을 제안해주세요."
+assignees: []
+labels: ["제안"]
+body:
+- type: markdown
+  attributes:
+    value: |
+      "**매번 이렇게 하는게 불편한데, 이런식으로 하면 더 좋을 거 같아요.**"
+- type: textarea
+  id: current
+  attributes:
+    label: 현재 동작
+    description: "현재 어떻게 잘못 동작하는지 입력해주세요."
+  validations:
+    required: true

@@ -20,6 +20,17 @@ body:
     placeholder: "삼성 갤럭시 S20, 아이폰 14 프로"
   validations:
     required: true
+- type: dropdown
+  id: version
+  attributes:
+    label: 테스트한 앱의 버전을 선택해주세요.
+    options:
+      - 2.0.0
+      - 2.0.1
+      - 2.0.2
+      - 2.1.0
+  validations:
+    required: true
 - type: textarea
   id: what-happened
   attributes:
@@ -39,7 +50,7 @@ body:
       3. 아래로 스와이프
       4. 오른쪽 상단에 에러 발생
   validations:
-    required: false   
+    required: false 
 - type: input
   id: contact
   attributes:

@@ -61,7 +61,7 @@ body:
     required: false
 
 - type: dropdown
-  id: version
+  id: version1
   attributes:
     label: Version
     description: What version of our software are you running?

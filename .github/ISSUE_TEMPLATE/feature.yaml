@@ -6,11 +6,12 @@ body:
 - type: markdown
   attributes:
     value: |
-      "**매번 이렇게 하는게 불편한데, 이런식으로 하면 더 좋을 거 같아요.**"
+      "**매번 이렇게 하는게 불편한데, 이런식으로 하면 더 좋을 거 같아요.**" |
+      "**OO 앱에 OO 메뉴에 있는 것처럼 동작하는게 더 나아 보여요.**"
 - type: textarea
-  id: current
+  id: request
   attributes:
-    label: 현재 동작
-    description: "현재 어떻게 잘못 동작하는지 입력해주세요."
+    label: 제안 내용
+    description: "더 나은 코드를 위해 기여해 주셔서 감사합니다."
   validations:
     required: true

@@ -6,8 +6,9 @@ body:
 - type: markdown
   attributes:
     value: |
-      "**매번 이렇게 하는게 불편한데, 이런식으로 하면 더 좋을 거 같아요.**" |
-      "**OO 앱에 OO 메뉴에 있는 것처럼 동작하는게 더 나아 보여요.**"
+      "_이 버튼의 색상을 #eaeaea로 변경해주세요._"
+      "_매번 이렇게 하는게 불편한데, 이런식으로 하면 더 좋을 거 같아요._"
+      "_OO 앱에 OO 메뉴에 있는 것처럼 동작하는게 더 나아 보여요._"
 - type: textarea
   id: request
   attributes:

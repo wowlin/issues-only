@@ -1,13 +1,9 @@
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
+name: 오류 보고
+description: 소중한 오류보고에 감사드립니다.
+title: ""
+labels: []
 assignees: []
 body: 
-- type: markdown
-  attributes:
-    value: |
-      소중한 오류 보고에 감사드립니다.
 - type: textarea
   id: what-happened
   attributes:

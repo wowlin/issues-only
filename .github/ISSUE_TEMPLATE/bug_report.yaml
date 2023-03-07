@@ -41,7 +41,7 @@ body:
   id: current
   attributes:
     label: 현재 동작
-    description: "현재 어떻게 동작해야 하는지 입력해주세요."
+    description: "현재 어떻게 잘못 동작하는지 입력해주세요."
   validations:
     required: true
 - type: textarea
